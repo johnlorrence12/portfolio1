@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PortFolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <nav>
+                <ul>
+                    <li><a href="contact.html"> Contact Us</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li id="logo-hover" >MyPORTFOLIO</li>
+                <li onclick="nav()">&#x2630;</li>
+                
+                </ul>
+            </nav>
+            <div class="second-nav" id="show">
+                <div><a href="about.html">ABOUT</a></div>
+                <div><a href="index.html">HOME</a></div>
+                <div><a href="contact.html">CONTACTUS</a></div>
+                
+        
+            </div>
+        </div>
+        <div class="centered-text">
+            <p class="mone"><b>Hi Im</b></p>
+            <p class="b"><b>LAWAG, JOHN LORRENCE</b></p><br><br>
+            <p class="c"><b><span class="j"></span>Bachelor of science in Information Technology</b></p>
+            <p class="d"><b><span class="k"></span>Negros Oriental State University</b></p>
+            <p class="e"><b><span>3rd Year College</span></b></p><br><br><br>
+           <div class="bi">
+            <p class="hi">ITS 300 SECTION B</p>
+           </div>
+        </div>
+
+        <div class="body">
+            <div class="ses">
+                <img src="\\192.168.0.230\Users\Public\Documents\lorrence.jpg" alt="" class="hast">
+            </div>
+        </div>
+    </div>
+</body>
+<script> 
+    function nav() {
+        let x = document.getElementById('show');
+
+        if (x.style.display ==="block") {
+            x.style.display = "none";
+        }else{
+            x.style.display ="block";
+        }
+        
+        }
+    
+</script>
+</html>
